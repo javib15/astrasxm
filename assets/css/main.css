@@ -1829,6 +1829,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="date"],
+	input[type="time"],
 	select,
 	textarea {
 		-moz-appearance: none;
@@ -1882,6 +1884,8 @@ input, select, textarea {
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],
+	input[type="date"],
+	input[type="time"],
 	select {
 		height: 2.75em;
 	}
@@ -2705,19 +2709,19 @@ input, select, textarea {
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			background-color: rgba(0, 20, 87, 0.363);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 20, 87, 0.363);
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			background-color: rgba(0, 20, 87, 0.363);
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			background-color:rgba(0, 20, 87, 0.363);
 		}
 
 		.spotlight:nth-child(5) {
@@ -2790,7 +2794,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 2em 0 4em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2982,7 +2986,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			/*background-color: #21b2a6;*/
 			color: #d3d4e4;
 		}
 
@@ -3150,7 +3154,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: #ffffff;
+			background-color: #f8f8f8;
 			color: #4E4852;
 		}
 
@@ -3195,7 +3199,7 @@ input, select, textarea {
 			.wrapper.style5 input[type="email"],
 			.wrapper.style5 select,
 			.wrapper.style5 textarea {
-				background-color: rgba(0, 0, 0, 0.0375);
+				background-color: rgba(0, 0, 0, 0.20);
 			}
 
 			.wrapper.style5 select {
@@ -4003,4 +4007,19 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+/* google map*/
+	.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+	position:absolute;
+	border-radius: 5px;
 	}
