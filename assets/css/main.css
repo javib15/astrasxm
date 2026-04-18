@@ -4022,22 +4022,31 @@ input, select, textarea {
     width:100%;
 	position:absolute;
 	border-radius: 5px;
-	}
-	/* ========================================= */
-/* ESTILOS PERSONALIZADOS ASTRA SXM
-/*Javier Rodriguez 18 abril 2026          */
-/* ========================================= */
+}
+	/* ===================================== */
+	/* ESTILOS PERSONALIZADOS ASTRA SXM 	*/
+	/*Javier Rodriguez 18 abril 2026		*/
+	/* ==================================== */
 
 /* Centrar la sección de reservaciones */
-#reserv { 
-    text-align: center;
+#reserv {
+    text-align: center !important;
     padding: 4em 0;
 }
 
-/* Contenedor Flexbox para centrar el widget de OpenTable */
+/* Forzar el centrado absoluto del widget de OpenTable */
 .reservation-container {
-    display: flex; 
-    justify-content: center; 
-    width: 100%; 
+    display: flex !important; 
+    justify-content: center !important; 
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important; 
     margin-top: 2em;
+}
+
+/* Evitar que OpenTable aplique márgenes extraños a la derecha */
+.reservation-container > div, 
+.reservation-container iframe {
+    margin: 0 auto !important;
+    display: block !important;
 }
