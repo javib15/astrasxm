@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<!--<link rel="icon" type="image/ico" href="/images/icon1.ico" />-->
+		<link rel="icon" type="image/ico" href="/images/icon1.ico" />
 	</head>
 	<body class="landing is-preload">
 
@@ -22,15 +22,12 @@
 									<a href="#menu" class="menuToggle"><span>Menu</span></a>
 									<div id="menu">
 										<ul>
-											<li><a href="#cta" class="scrolly">Reservations</a></li>
-											<!--<li><a href="#banner" class="scrolly">Home</a></li>-->
-											<!--<li><a href="galery.html">Galerry</a></li>-->
+											<li><a href="#reserv" class="scrolly">Reservations</a></li>
 											<li><a download href="menu/Astra_Menu.pdf" target="_blank">Full Menu</a></li>
-											<!--<li><a download href="menu/Astra_Brunch.pdf">Sunday Brunch Menu</a></li>-->
 											<li><a download href="menu/Astra_cocktail_menu.pdf" target="_blank">Cocktail Menu</a></li>
 											<li><a href="#maps" class="scrolly">How to Find Us</a></li>
 											<li><a href="#one" class="scrolly">Learn More</a></li>
-											<li><a href="contact.html">Contact</a></li>
+											<li><a href="#contact" class="scrolly" >Contact</a></li>
 											
 										</ul>
 									</div>
@@ -45,7 +42,7 @@
 							<h2>ASTRA</h2>
 							<p>Steak and Seafood</p>
 							<ul class="actions special">
-								<li><a href="#cta" class="button primary scrolly"  >RESERVATIONS</a></li>
+								<li><a href="#reserv" class="button primary scrolly"  >RESERVATIONS</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">Learn More</a>
@@ -101,70 +98,31 @@
 
 				<!-- Reservations -->
 					
-				<section id="cta" class="wrapper style4">
-					<h2>RESERVATION</h2>
-					<div class="inner">
+			<section id="reserv" class="wrapper style4">
+    			<div class="inner">
+        			<h2>RESERVATION</h2>
+        				<div class="reservation-container">	
+            				<script type='text/javascript' src='https://www.opentable.com/widget/reservation/loader?rid=1245211&type=standard&theme=tall&color=1&dark=false&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant website&cfe=true'></script>
+        				</div>
+        
+				</div>
+			</section>
+		<!-- cONTACT -->
+			<section id="contact" class="wrapper style4">
+						<article id="main">
 						<header>
-							<div class="content">
-								<script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=1245211&type=standard&theme=tall&color=1&dark=false&iframe=true&domain=com&lang=en-US&newtab=false&ot_source=Restaurant website&cfe=true'></script>
-						  	</div>
-						</header>
-							<!--<form method="post" action="Reservation.php">
-								<div class="row gtr-uniform">
-									<div class="col-6 col-12-xsmall">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Reservation Name*" required />
-									</div>
-									<div class="col-6 col-12-xsmall">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email*" required />
-									</div>
-									<div class="col-12">
-										<label for="people">¿How many people?*</label>
-										<select name="people" id="people" placeholder="¿How Many Peple*" required >
-											<option value="">-</option>
-											<option value="1">1 Person</option>
-											<option value="2">2 People</option>
-											<option value="3">3 People</option>
-											<option value="4">4 People</option>
-											<option value="5">4 People</option>
-											<option value="6">6 People</option>
-											<option value="7">7 People</option>
-											<option value="8">8 People</option>
-											<option value="9">9 People</option>
-											<option value="10">10 People</option>
-											<option value="11">11 People</option>
-											<option value="12">12 People</option>
-											<option value="12 more">More than 12</option>
-										</select>
-									</div>
+							<h2>Contact</h2>
+							<p>Happy Hour Everyday from 4 - 6 pm - Open for dinner till 11 pm, Bar till midnight</p>
+							<ul class="icons">
+								<li><i class="fas fa-phone-alt"> +1 721-526-4912</li></i>
+								<li><i class="far fa-envelope-open"> reservations@astrasxm.com</li></i>
 								
-									<div class="col-6 col-12-small">
-										<label for="people">¿Reservation date?*</label>
-										<input type="date" name="date" required />
-									</div>
-									<div class="col-6 col-12-small">
-										<label for="people">¿Reservation time?*</label>
-										<input type="time" name="time" max="22:30" min="11:00" step="1" required />
-									</div>
-									<div class="col-12">
-										<textarea name="message-text" id="message-text" placeholder="keep in mind" rows="6"></textarea>
-									</div>
-									<div class="col-8 col-12-small">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">Not a robot</label>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input type="submit" value="Reserve" class="primary" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-										
-									</div>
-								</div>
-							</form>-->
-					</div>
-						
+							</ul>
+						</header>
+					</article>
 				</section>
-
+				
+				
 				<!-- Footer -->
 					<footer id="footer">
 						<ul class="icons">
